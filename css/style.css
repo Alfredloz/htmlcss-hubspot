@@ -108,8 +108,9 @@ i {
 .banner-img {
   background-image: url(../img/jumbotron.png);
   height: 100%;
+  background-size: 1200px;
   background-repeat: no-repeat;
-  background-position: 200px 10px;
+  background-position: 100% 550%;
 }
 .banner-header {
   position: absolute;
