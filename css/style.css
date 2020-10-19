@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+body {
+  min-width: 1400px;
+}
 
 header {
   width: 100%;
@@ -20,7 +23,7 @@ footer {
   height: 450px;
   background: #32495B;
 }
-ul {
+li {
   list-style-type: none;
 }
 /* /general settings */
@@ -39,7 +42,7 @@ ul {
 }
 .container {
   width: 80%;
-  margin: auto;;
+  margin: auto;
 }
 .orange-btn {
   background: #FE775A;
@@ -137,4 +140,51 @@ i {
   background: #AFEBE4;
   border-top: 5px solid #33475B;
   border-bottom: 5px solid #33475B;
+}
+/* /banner header */
+/* main */
+/* cube settings */
+.cube img {
+transform: translateX(250%);
+height: 300px;
+}
+.cube h2, p {
+  text-align: center;
+
+}
+.cube h2 {
+  font-size: 3em;
+}
+.cube p {
+  font-size: 25px;
+  font-weight: 300;
+}
+/* /cube settings */
+/* lonesome container */
+.lonesome {
+  background: white;
+  box-shadow: 2px solid #ECF1F5;
+}
+.book span {
+  display: block;
+  width: 140px;;
+  padding: 20px;
+  text-align: center;
+  margin-left: 40px;
+}
+.lonesome-text {
+  float: left;
+}
+.draw-line {
+  position: relative;
+}
+.hr-line {
+  width: 70%;
+  height: 5px;
+  background: black;
+  color: #899397;
+  border: 0 none;
+  border-style: none;
+}
+.list-main li{
 }
