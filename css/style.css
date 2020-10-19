@@ -7,7 +7,7 @@
 
 header {
   width: 100%;
-  height: 550px;
+  height: 900px;
   background: #FFF4EF;
 }
 main {
@@ -19,6 +19,9 @@ footer {
   width: 100%;
   height: 450px;
   background: #32495B;
+}
+ul {
+  list-style-type: none;
 }
 /* /general settings */
 /* utility class */
@@ -38,23 +41,99 @@ footer {
   width: 80%;
   margin: auto;;
 }
+.orange-btn {
+  background: #FE775A;
+  border-radius: 3px;
+  color: white;
+  /* line-height: 30px; */
+}
 /* /utility class */
 
 /* header */
 ul li {
   display: inline-block;
-  font-size: 18px;
+  font-size: 22px;
   padding: 5px;
+  bottom: 50%;
+  font-weight: 300;
+  line-height: 30px;
+
 }
 .set-bar {
   background: #F4F9FD;
-  height: 50px;
+  height: 80px;
+}
+.color-set-bar{
+  background: #F4F9FD;
+}
+.set-bar ul {
+  transform: translateY(50%);
+  margin: 0 20px
 }
 i {
   margin: 0 10px;
+  font-weight: lighter;
+  font-size: 15px;
 
 }
 .fa-chevron-circle-down {
-  border-right: 1px solid grey;
+  /* border-right: 1px solid grey; */
   padding-right: 20px;
+}
+/* page bar  */
+.color-page-bar {
+  background: white;
+}
+.page-bar {
+  background: white;
+  height: 80px;
+}
+.logo-img {
+  background-image: url(../img/logo.svg);
+  height: 100%;
+  width: 15%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(15%);
+}
+.right-page-bar ul {
+  transform: translateY(50%);
+}
+/* banner header */
+.bg-banner {
+  height: 600px;
+  position: relative;
+
+}
+.banner-img {
+  background-image: url(../img/jumbotron.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 200px 10px;
+}
+.banner-header {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.banner-header > h1 {
+  font-size: 3em;
+  /* text-shadow: 2px 2px grey; */
+}
+.banner-header > * {
+  line-height: 2em;
+  width: 80%;
+  margin: 20px;
+}
+.banner-header strong {
+  /* margin-left: 10px; */
+  padding: 10px;
+}
+.banner-line {
+  width: 100%;
+  height: 15%;
+  background: #AFEBE4;
+  border-top: 5px solid #33475B;
+  border-bottom: 5px solid #33475B;
 }
