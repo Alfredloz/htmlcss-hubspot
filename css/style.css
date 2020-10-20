@@ -74,14 +74,12 @@ li {
   transform: translateY(50%);
   margin: 0 20px
 }
-i {
-  margin: 0 10px;
-  font-weight: lighter;
-  font-size: 15px;
-}
 .fa-chevron-circle-down {
   /* border-right: 1px solid grey; */
   padding-right: 20px;
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 15px;
 }
 /* page bar  */
 .color-page-bar {
@@ -99,7 +97,7 @@ i {
   background-size: contain;
   transform: translateY(15%);
 }
-.right-page-bar ul {
+.right-page-bar  {
   transform: translateY(50%);
 }
 /* banner header */
@@ -165,30 +163,47 @@ display: block;
 .lonesome {
   background: white;
   box-shadow: 4px solid #ECF1F5;
+  padding: 40px;
+}
+.book {
+  margin-right: 50px;
 }
 .book span {
   display: block;
-  width: 140px;;
-  padding: 20px;
+  width: 120px;;
+  padding:  15px 10px;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.book img {
+  height: 80px;
+  margin: 0 auto;
+  display: block;
 }
 .lonesome-text {
   float: left;
+}
+.lonesome-text h3 {
+  line-height: 50px;
 }
 .draw-line {
   position: relative;
 }
 .hr-line {
   width: 65%;
-  height: 2px;
-  background: #899397;
+  height: 30px;
+  background: blue;
 }
-
+.hr-line span {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
 .list-main li{
   display: inline-block;
 }
-/* lonesome container */
+/* /lonesome container */
 /* three columns */
 .col-3 {
   width: 30%;
