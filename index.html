@@ -13,10 +13,9 @@
       <!-- bg set-bar -->
       <div class="color-set-bar">
         <div class="container">
-
           <nav class="set-bar clearfix">
             <ul class="lang-admin float-left">
-              <li><i class="fas fa-globe"></i>english<i class="fas fa-chevron-circle-down"></i></li>
+              <li><i class="fas fa-globe"></i>english<i id="border-separator" class="fas fa-chevron-circle-down"></i></li>
               <li>contact us</li>
             </ul>
             <ul class="profile-search-bar float-right">
@@ -25,7 +24,7 @@
               <li class="orange-btn">GetHubspotFree</li>
             </ul>
           </nav>
-        </div class="container">
+        </div>
       </div>
       <!-- /bg set-bar -->
       <!-- bg-page-bar -->
@@ -33,15 +32,15 @@
           <div class="container">
             <nav class="page-bar clearfix">
               <div class="logo-img float-left">
-
+                <img src="img/logo.svg" alt="">
               </div>
               <div class="right-page-bar float-right">
                 <ul>
-                  <li>Software<i class="fas fa-chevron-circle-down"></i></li></li>
-                  <li>Pricing<i class="fas fa-chevron-circle-down"></i></li></li>
-                  <li>Resources<i class="fas fa-chevron-circle-down"></i></li></li>
-                  <li>Partners<i class="fas fa-chevron-circle-down"></i></li></li>
-                  <li>About<i class="fas fa-chevron-circle-down"></i></li></li>
+                  <li>Software<i class="fas fa-chevron-circle-down"></i></li>
+                  <li>Pricing<i class="fas fa-chevron-circle-down"></i></li>
+                  <li>Resources<i class="fas fa-chevron-circle-down"></i></li>
+                  <li>Partners<i class="fas fa-chevron-circle-down"></i></li>
+                  <li>About<i class="fas fa-chevron-circle-down"></i></li>
                 </ul>
               </div>
             </nav>
@@ -86,17 +85,25 @@
           </p>
           <div class="draw-line clearfix">
             <div class="h4-text float-left">
-              <h4>POPULAR FEATURE</h4>
-            </div>
-            <div class="hr-line float-left">
-              <span></span>
+              <h4 class="line-text float-left">
+                POPULAR FEATURE
+                <span>
+
+                </span>
+              </h4>
             </div>
           </div>
-          <ul class="list-main">
-            <li><i class="far fa-check-circle"></i>Contact Insight</li>
-            <li><i class="far fa-check-circle"></i>Deals</li>
-            <li><i class="far fa-check-circle"></i>Task</li>
-          </ul>
+          <div  class="checked-list">
+            <span>
+              <i class="far fa-check-circle"></i>Contact Insight
+            </span>
+            <span>
+              <i class="far fa-check-circle"></i>Deals
+            </span>
+            <span>
+              <i class="far fa-check-circle"></i>Task
+            </span>
+          </div>
         </div>
       </div>
       <div class="three-col container clearfix">
@@ -121,9 +128,9 @@
           <hr>
           <h5>popular feature</h5>
           <ul>
-            <li>Email Tracking</li>
-            <li>Meeting Scheduling</li>
-            <li>Email Automation</li>
+            <li><i class="far fa-check-circle"></i>Email Tracking</li>
+            <li><i class="far fa-check-circle"></i>Meeting Scheduling</li>
+            <li><i class="far fa-check-circle"></i>Email Automation</li>
           </ul>
         </div>
         <div class="col-3 col-right float-left">
@@ -134,15 +141,91 @@
           <hr>
           <h5>popular feature</h5>
           <ul>
-            <li>Tickets</li>
-            <li>Customer Feedback</li>
-            <li>Knowledge Base</li>
+            <li><i class="far fa-check-circle"></i>Tickets</li>
+            <li><i class="far fa-check-circle"></i>Customer Feedback</li>
+            <li><i class="far fa-check-circle"></i>Knowledge Base</li>
           </ul>
         </div>
       </div>
+      <!-- blue main -->
+      <div class="blue-main">
+        <div class=" blue-box container">
+          <h2>Learn and grow with award-winning support and thriving community behind you.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ipsa error ut non aliquam eius atque commodi, velit odio est! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, eveniet.
+          </p>
+          <!-- four columns blue -->
+          <div class="four-col container clearfix">
+            <div class="col-4 float-left">
+              <div class="top-col4">
+                <img src="img/community_hands.svg" alt="community hands icon">
+                <h3>150+</h3>
+                <h5>hubspot user groups</h5>
+              </div>
+              <div class="bottom-col4">
+                <img  id="marketplace-icon" src="img/hubspot_marketplace.webp" alt=" marketplace icon">
+                <h3>200+</h3>
+                <h5>integrations</h5>
+              </div>
+            </div>
+            <div class="col-4 float-left">
+              <div class="top-col4">
+                <img src="img/hubspot_white.svg" alt="hubspot white logo icon">
+                <h3>4.5M+</h3>
+                <h5>monthly visits</h5>
+              </div>
+              <div class="bottom-col4">
+                <img src="img/globe.svg" alt="globe hubspot icon">
+                <h3>6+</h3>
+                <h5>languages</h5>
+              </div>
+            </div>
+            <div class="col-4 float-left">
+              <div class="top-col4">
+                <img src="img/academy.svg" alt="academy hubspot icon">
+                <h3>155K+</h3>
+                <h5>certified professionals</h5>
+              </div>
+              <div class="bottom-col4">
+                <img src="img/community_followers.svg" alt="hubspot community followers icon">
+                <h3>2.6M+</h3>
+                <h5>social followers</h5>
+              </div>
+            </div>
+            <div class="col-4 float-left">
+              <div class="top-col4-right">
+                <img src="img/inbound.svg" alt="inbound hubspot icon">
+                <h3>21K+</h3>
+                <h5>registred attendes</h5>
+              </div>
+              <div class="bottom-col4-right">
+                <img src="img/icon_people.svg" alt=" people hubspot icon">
+                <h3>5K+</h3>
+                <h5>profiles and countings</h5>
+              </div>
+            </div>
+            </div>
+            <!-- /four columns blue -->
+          </div>
+        </div>
+        <!-- /blue main -->
+        <!--  -->
+      </div>
+      <!-- sponsor main -->
+      <div class="container">
+
+        <div class="sponsor-main clearfix">
+
+            <div class="start-sponsor float-left">
+
+            </div>
+            <div class="sponsor-girl float-left">
+          </div>
+        </div>
+      </div>
+      <!-- /sponsor main -->
     </main>
     <!-- /main -->
-    <!-- footer -->
+  <!-- footer -->
     <footer>
 
     </footer>
