@@ -19,8 +19,9 @@ main {
 }
 footer {
   width: 100%;
-  height: 450px;
+  height: 1000px;
   background: #32495B;
+  color: white;
 }
 li {
   list-style-type: none;
@@ -56,6 +57,18 @@ li {
   color: #33475b;
   cursor: pointer;
   text-shadow: 1px 1px solid grey;
+}
+.col-4 {
+  width: 25%;
+  height: 380px;
+  margin: auto;
+}
+.col-3 {
+  width: 30%;
+  height: 600px;
+  background-color: white;
+  box-shadow: 4px solid #ECF1F5;
+  margin: 57px 0;
 }
 /* /utility class */
 
@@ -213,13 +226,6 @@ display: block;
 }
 /* /lonesome container */
 /* three columns */
-.col-3 {
-  width: 30%;
-  height: 600px;
-  background-color: white;
-  box-shadow: 4px solid #ECF1F5;
-  margin: 57px 0;
-}
 .col-3 img {
   display: block;
   margin: 0;
@@ -279,11 +285,7 @@ display: block;
   margin-bottom: 40px;
 }
 /* four columns blue */
-.col-4 {
-  width: 25%;
-  height: 380px;
-  margin: auto;
-}
+
 .top-col4, .bottom-col4 {
   width: 100%;
   height: 170px;;
@@ -380,3 +382,44 @@ display: block;
   margin-left: 63%;
 }
 /* /sponsor main */
+/* footer */
+/* footer list */
+.footer-list {
+  width: 25%;
+  margin: 40px 0;
+  line-height: 30px;
+
+}
+.footer-list.col4 ul{
+  margin-bottom: 40px;
+}
+.footer-list.col4  span:nth-child(3) {
+  color: black;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+}
+.footer-list.col4 > span:last-child {
+  display: block;
+  margin-top: 40px;
+  font-size: 30px;
+  padding: 0 25px;
+}
+/* /footer list */
+/* credits */
+.lang-footer {
+  color: white;
+  margin: 0 20%;
+  margin-bottom: 20px;
+}
+.lang-footer span {
+  padding: 0 25px;
+}
+.logo-credits img {
+  width: 90px;
+  margin-top: 20px;
+}
+.logo-credits span {
+  display: block;
+  margin-top: 10px;
+}
